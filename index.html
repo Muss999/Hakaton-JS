@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HAKATON JS</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div id="d1"><h3></h3></div>
+
+        <div id="d1">
+            <div class="btn-div">
+                <button class="btn-func" onclick="createUser()">
+                    Register
+                </button>
+                <button class="btn-func" onclick="loginUser()">Login</button>
+                <button class="btn-func" onclick="deleteUser()">
+                    Delete account
+                </button>
+            </div>
+
+            <div class="btn-div">
+                <button class="btn-func" onclick="sendMessage()">
+                    Message tap
+                </button>
+                <button id="dd" class="btn-func" onclick="deleteMessage()">
+                    Delete message
+                </button>
+            </div>
+        </div>
+
+        <!--! read -->
+        <div id="d2">
+            <button class="btn-func-1" onclick="readUsers()">Read Users</button>
+            <h4 id="h4">
+                Users <br />
+                List:
+            </h4>
+            <ul></ul>
+        </div>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>
